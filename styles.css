@@ -29,8 +29,6 @@ button:hover{
     border: 1px solid #ccc;
     margin-left: 20px;
     padding: 10px;
-    display: inline-block;
-    vertical-align: top;
 }
 
 .item{
