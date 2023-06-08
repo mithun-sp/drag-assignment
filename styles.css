@@ -1,0 +1,65 @@
+body{
+    text-align: center;
+}
+
+button{
+    background-color: rgb(18, 90, 224);
+    color: #f1f1f1;
+    cursor: pointer;
+    border: none;
+    border-radius: 40px;
+    margin-top: 20px;
+    height: 40px;
+    width: 100px;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover{
+    background-color: rgb(41, 111, 241);
+}
+
+.container-lg{
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 200px;
+    height: 300px;
+    border: 1px solid #ccc;
+    margin-left: 20px;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.item{
+    background-color: #f1f1f1;
+    padding: 5px;
+    margin-bottom: 5px;
+    cursor: move;
+}
+
+.success {
+    background-color: #dff0d8;
+    color: #3c763d;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#success-msg{
+    color: #3c763d;
+}
+
+    /* Media queries for responsive design */
+    @media (min-width: 768px) {
+        .container {
+          width: 48%;
+        }
+      }
+  
+      @media (min-width: 992px) {
+        .container {
+          width: 32%;
+        }
+      }
